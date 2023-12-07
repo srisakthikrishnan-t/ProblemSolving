@@ -1,4 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Numerics;
+
+// https://leetcode.com/problems/add-two-numbers/
+
+//Example 1:
 
 
 //ListNode L13 = new ListNode(3, null);
@@ -10,10 +14,12 @@
 //ListNode L21 = new ListNode(5, L22);
 
 
+//Example 2:
 
 //ListNode L11 = new ListNode(0, null);
 //ListNode L21 = new ListNode(0, null);
 
+//Example 3:
 
 //ListNode L17 = new ListNode(9, null);
 //ListNode L16 = new ListNode(9, L17);
@@ -29,9 +35,9 @@
 //ListNode L21 = new ListNode(9, L22);
 
 
+//Example 4:
 
 
-using System.Numerics;
 
 ListNode L11 = new ListNode(9, null);
 
