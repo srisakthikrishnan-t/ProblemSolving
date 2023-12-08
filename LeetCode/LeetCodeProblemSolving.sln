@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediumUnitTest", "TestProje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-LongestSubstringWithoutRepeatingCharacters", "LongStringLib\3-LongestSubstringWithoutRepeatingCharacters.csproj", "{D330EC91-91EC-43D9-A35D-D2F926EA4A75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1662-CheckIfTwoStringArraysAreEquivalent", "1662-CheckIfTwoStringArraysAreEquivalent\1662-CheckIfTwoStringArraysAreEquivalent.csproj", "{0D8BC1F2-E068-4E98-9685-28B5251DFA3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1662-CheckIfTwoStringArraysAreEquivalent", "1662-CheckIfTwoStringArraysAreEquivalent\1662-CheckIfTwoStringArraysAreEquivalent.csproj", "{0D8BC1F2-E068-4E98-9685-28B5251DFA3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyUnitTest", "EasyUnitTest\EasyUnitTest.csproj", "{43ECE5D4-7AA6-4E71-9DE7-8A6F6C5EE44A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyUnitTest", "EasyUnitTest\EasyUnitTest.csproj", "{43ECE5D4-7AA6-4E71-9DE7-8A6F6C5EE44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateMoneyInLeetcodeBank", "CalculateMoneyInLeetcodeBank\CalculateMoneyInLeetcodeBank.csproj", "{42674F30-EE9A-44F6-A127-D1BD512B4680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateMoneyInLeetcodeBank", "CalculateMoneyInLeetcodeBank\CalculateMoneyInLeetcodeBank.csproj", "{42674F30-EE9A-44F6-A127-D1BD512B4680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1903LargestOddNumberInString", "1903LargestOddNumberInString\1903LargestOddNumberInString.csproj", "{70773FA8-05CE-4C78-B376-D7F0CD38B538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{42674F30-EE9A-44F6-A127-D1BD512B4680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42674F30-EE9A-44F6-A127-D1BD512B4680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42674F30-EE9A-44F6-A127-D1BD512B4680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{0D8BC1F2-E068-4E98-9685-28B5251DFA3C} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
 		{43ECE5D4-7AA6-4E71-9DE7-8A6F6C5EE44A} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
 		{42674F30-EE9A-44F6-A127-D1BD512B4680} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
+		{70773FA8-05CE-4C78-B376-D7F0CD38B538} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D86DC2CB-C49E-4EDA-9365-8E9466A12F6F}

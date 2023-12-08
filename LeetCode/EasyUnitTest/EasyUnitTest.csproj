@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\1662-CheckIfTwoStringArraysAreEquivalent\1662-CheckIfTwoStringArraysAreEquivalent.csproj" />
+    <ProjectReference Include="..\1903LargestOddNumberInString\1903LargestOddNumberInString.csproj" />
     <ProjectReference Include="..\CalculateMoneyInLeetcodeBank\CalculateMoneyInLeetcodeBank.csproj" />
   </ItemGroup>
 
