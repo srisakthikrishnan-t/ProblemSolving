@@ -1,4 +1,5 @@
 using System.Numerics;
+using _100143CountTestedDevicesAfterTestOperations;
 using _1662_CheckIfTwoStringArraysAreEquivalent;
 using _1903LargestOddNumberInString;
 
@@ -26,8 +27,7 @@ namespace EasyUnitTest
             Assert.Equal(expectedSavings, result);
         }
 
-
-        private string input = "";
+       
 
         [Theory]
         [InlineData("52", "5")]
@@ -45,5 +45,37 @@ namespace EasyUnitTest
 
             Assert.Equal(expectedResult,result);
         }
+
+        [Theory]
+        [InlineData(new[]{1, 1, 2, 1, 3}, 3)]
+        [InlineData(new[] { 0, 1, 2 }, 2)]
+        [InlineData(new[] { 2, 1 }, 1)]
+        public void CountTestedDevicesAfterTestOperations_Test(int[] batteryPercentages, int expectedResult)
+        {
+            var result = new CountTestedDevicesAfterTestOperations().CountTestedDevices(batteryPercentages);
+            Assert.Equal(expectedResult, result);
+        }
+
+
+        //private static readonly int[][] Ints = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        //private string input = "";
+
+        //[Theory]
+        //[InlineData(Ints, 3)]
+        //[InlineData(new[] { 0, 1, 2 }, 2)]
+        //[InlineData(new[] { 2, 1 }, 1)]
+        [Fact]
+        public void TransposeMatrix_Test()
+        {
+            int[][] arr =   {
+                                new int[] {1,2,3},
+                                new int[] {4,5,6},
+                                new int[] {7,8,9}
+                            };
+
+            var result = new _867TransposeMatrix.TransposeMatrix().Transpose(arr);
+            //Assert.Equal(expectedResult, result);
+        }
+
     }
 }

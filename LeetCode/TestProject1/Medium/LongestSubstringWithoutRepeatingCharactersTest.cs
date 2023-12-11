@@ -1,3 +1,4 @@
+using _100155DoubleModularExponentiation;
 using LongStringLib;
 using Xunit;
 
@@ -21,6 +22,22 @@ namespace UnitTest.Medium
             var result = x.GetLongestSubString(inputStr);
 
             Assert.Equal(expectedResult, result);
+        }
+
+        int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
+
+        [Fact]
+        //[InlineData(new[,] { { 2, 3, 3, 10 }, { 3, 3, 3, 1 }, { 6, 1, 1, 4 } }, 3)]
+        public void CountTestedDevicesAfterTestOperations_Test()
+        {
+            int[,] numbers = {{2, 3, 3, 10}, {3, 3, 3, 1}, {6, 1, 1, 4}};
+            var target = 2;
+
+            //int[,] numbers = {{ 39, 3, 1000, 1000 }};
+            //var target = 7;
+
+            var result = new DoubleModularExponentiation().GetGoodIndices(numbers, target);
+            Assert.NotEmpty(result);
         }
     }
 }

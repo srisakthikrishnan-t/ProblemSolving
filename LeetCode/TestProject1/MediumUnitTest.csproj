@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\100155DoubleModularExponentiation\100155DoubleModularExponentiation.csproj" />
     <ProjectReference Include="..\LongStringLib\3-LongestSubstringWithoutRepeatingCharacters.csproj" />
   </ItemGroup>
 

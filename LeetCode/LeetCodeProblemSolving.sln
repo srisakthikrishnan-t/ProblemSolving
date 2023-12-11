@@ -21,7 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyUnitTest", "EasyUnitTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateMoneyInLeetcodeBank", "CalculateMoneyInLeetcodeBank\CalculateMoneyInLeetcodeBank.csproj", "{42674F30-EE9A-44F6-A127-D1BD512B4680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1903LargestOddNumberInString", "1903LargestOddNumberInString\1903LargestOddNumberInString.csproj", "{70773FA8-05CE-4C78-B376-D7F0CD38B538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1903LargestOddNumberInString", "1903LargestOddNumberInString\1903LargestOddNumberInString.csproj", "{70773FA8-05CE-4C78-B376-D7F0CD38B538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100143CountTestedDevicesAfterTestOperations", "100143CountTestedDevicesAfterTestOperations\100143CountTestedDevicesAfterTestOperations.csproj", "{D74F45AB-3167-4523-9817-B0FC09DE7734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100155DoubleModularExponentiation", "100155DoubleModularExponentiation\100155DoubleModularExponentiation.csproj", "{4BF5230C-7BC7-4739-815A-76595A178C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "867TransposeMatrix", "867TransposeMatrix\867TransposeMatrix.csproj", "{79A8EDE4-1963-4671-ABFD-54B761FCF251}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,18 @@ Global
 		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70773FA8-05CE-4C78-B376-D7F0CD38B538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74F45AB-3167-4523-9817-B0FC09DE7734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74F45AB-3167-4523-9817-B0FC09DE7734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74F45AB-3167-4523-9817-B0FC09DE7734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74F45AB-3167-4523-9817-B0FC09DE7734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF5230C-7BC7-4739-815A-76595A178C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF5230C-7BC7-4739-815A-76595A178C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF5230C-7BC7-4739-815A-76595A178C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF5230C-7BC7-4739-815A-76595A178C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A8EDE4-1963-4671-ABFD-54B761FCF251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A8EDE4-1963-4671-ABFD-54B761FCF251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A8EDE4-1963-4671-ABFD-54B761FCF251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A8EDE4-1963-4671-ABFD-54B761FCF251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +92,9 @@ Global
 		{43ECE5D4-7AA6-4E71-9DE7-8A6F6C5EE44A} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
 		{42674F30-EE9A-44F6-A127-D1BD512B4680} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
 		{70773FA8-05CE-4C78-B376-D7F0CD38B538} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
+		{D74F45AB-3167-4523-9817-B0FC09DE7734} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
+		{4BF5230C-7BC7-4739-815A-76595A178C10} = {096E0E68-76D9-4168-97D0-521C015C73B5}
+		{79A8EDE4-1963-4671-ABFD-54B761FCF251} = {D447E443-DC29-4B28-9DA9-99D7E1113138}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D86DC2CB-C49E-4EDA-9365-8E9466A12F6F}
